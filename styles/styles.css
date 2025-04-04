@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 
-.text-container {
+.page-title-text-container {
     text-align: center;
     font-family: fantasy;
     color: black;
@@ -52,40 +52,14 @@ h2 {
 .paragraph {
     text-align: center;
     font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding: 1em;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-}
-
-.image-container2 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.paragraph2 {
-    text-align: center;
-    flex-direction: column;
-    font-size: 2em;
-    font-weight: bold;
-    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .links {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1em;
     margin: 10px;
-}
-
-.text-container3 {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    font-size: 2em;
-    padding: 5px
+    font-family: fantasy;
+    text-decoration: none;
+    font-size: x-large;
 }
 
 hr {
@@ -97,22 +71,15 @@ hr {
 img {
     border-radius: 40px;
     max-width: 80%;
-    align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: solid;
     border-width: thick;
     border-color: white;
     padding: 5px;
     margin: 5px;
-}
-
-.image-container-4 {
-    display: flex;
-    max-width: 40%;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
 }
 
 .eagle {
@@ -140,22 +107,17 @@ img {
     align-items: center;
 }
 
-.chapter {
-    text-align: center;
-    font-size: 2em;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    padding: 1em;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-}
-
 .german-america-jingle {
     text-align: center;
     font-family: fantasy;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.text-container-home-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .werner-von-siemens {
@@ -168,6 +130,7 @@ img {
 .back-link {
     font-size: 1.5em;
     font-family: fantasy;
+    text-decoration: none;
 }
 
 .company-map {
@@ -175,4 +138,52 @@ img {
     max-width: 40%;
     flex-direction: column;
     align-items: center;
+}
+
+span {
+    color: white;
+}
+
+button {
+    font-family: fantasy;
+    font-size: 0.8em;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 40px;
+    color: orange;
+    padding: 5px;
+    text-decoration: none;
+}  
+
+li {
+    text-decoration: none;
+}
+
+.image-container-7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-container-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-of-chapter {
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bold;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+.image-container-body-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
 }
