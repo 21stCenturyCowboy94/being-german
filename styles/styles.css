@@ -13,10 +13,34 @@ body {
     margin: 25px 25px 25px 25px
 }
 
+.header {
+    background: black;
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.header-links {
+    font-family: fantasy;
+    font-size: large;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    text-decoration: none;
+}
+
 .image-one {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 0px;
 }
 
 .page-title-text-container {
@@ -149,12 +173,10 @@ span {
 button {
     font-family: fantasy;
     font-size: 0.8em;
-    text-align: center;
     cursor: pointer;
     background-color: white;
     border-radius: 40px;
     color: orange;
-    padding: 5px;
     text-decoration: none;
 }  
 
@@ -189,3 +211,4 @@ li {
     align-items: center;
     max-width: 50%;
 }
+
