@@ -2,6 +2,15 @@
 
 ###
 
+### Contributors
+
+* Nelson Kenneth
+
+* Emma Cortez
+
+
+#
+
 ### Technologies used:
 
 1. HTML
@@ -13,4 +22,8 @@
 4. Google
 
 #
+
+### What we do
+
+This website explorers German culture
 

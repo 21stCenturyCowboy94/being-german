@@ -230,3 +230,19 @@ li {
     text-align: center;
 }
 
+.gate {
+    max-width: 450px;
+}
+
+.gummy-bear {
+    max-width: 30%;
+}
+
+.tower {
+    max-width: 450px;
+}
+
+.einstein {
+    max-width: 450px;
+}
+
